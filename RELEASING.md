@@ -9,6 +9,6 @@ published by CI can be pinned with confidence.
 4. Open the successful **Build** run for the merge commit, download the
    `awepeeps-spawn-kit` artifact and copy the jar file name and SHA-256 from the
    run's job summary.
-5. Update the pin in `awepeeps-minecraft-deployment`: set the exact source commit
+5. Update the pin in `minecraft-deployment`: set the exact source commit
    (the merge commit SHA) and jar SHA-256 in `config/spawn-kit-source.env`.
 6. Never pin a moving branch; always pin the immutable merge commit plus hash.
